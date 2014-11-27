@@ -5,10 +5,10 @@ var ext = process.argv[3];
 
 var callback = function(error, files) {
 	if (error) {
-        console.log('Error');
-        console.log(error);
+		console.log('Error');
+		console.log(error);
 	}
-	
+
 	files.forEach(function(file) {
 		console.log(file);
 	});
